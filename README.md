@@ -9,7 +9,7 @@ The purpose of this repository: I will put the links of my assignments for the c
 Contact(e-mail): whuhanuniwyq@foxmail.com  
 
 ##Assignments
-- [x] [1.Exercise_3 with all levels](https://raw.githubusercontent.com/chenfeng2013301020145/computational-physics_N2013301020145/master/Exercise/1st%20assignment.md)
+- [x] [1st assignment level1 and level2](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/bigpattern.py)
 - [ ] 2.
 - [ ] 3.
 - [ ] 4.
