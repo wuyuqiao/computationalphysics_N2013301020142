@@ -1,16 +1,13 @@
-# **Assignment Repository**
-------
-
-## Introduction
-Student ID: 2013301020142  
-Name: Yuqiao Wu  
-Class: 13 Hongyi  
-The purpose of this repository: I will put the links of my assignments for the computational physics in this README.md. And the original files of assignments will be stored in this repository too.  
-Contact(e-mail): whuhanuniwyq@foxmail.com  
-
-##Assignments
-- [x] [1st assignment level1 and level2](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/bigpattern.py)
-- [ ] 2.
-- [ ] 3.
-- [ ] 4.
-- [ ] 5.
+#作业用文件池  
+很荣幸您阅览本文件池！
+##作者信息  
+姓名：吴雨桥  
+学号：2013301020142  
+学院：物理科学与技术学院  
+班级：2013级物理学弘毅班  
+邮箱：18271498455@qq.com  
+qq号：641293081  
+手机：18271498455  
+##用途介绍  
+本软件池由吴雨桥创建，创建目的是作为他的专业选修课（蔡浩先生授课）计算物理课的作业提交方式。所有该科的作业将以超链接的形式呈现在下方，同时池中按照课本上的章节将作业用到的代码、图片之类文件归类到了各文件夹中，以方便您的查阅。  
+##作业的超链接  
