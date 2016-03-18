@@ -249,7 +249,8 @@
 ###3.程序执行情况  
 1.作业L1执行情况  
 作业L1的要求是在屏幕上拼出自己名字的英文。我的名字是吴雨桥，大写英文就是YUQIAO WU。执行情况如下：  
-
+  
+  
 ![作业L1执行情况](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter1/%E4%BD%9C%E4%B8%9AL1%E6%89%A7%E8%A1%8C%E6%83%85%E5%86%B5.png)  
   
 2.作业L2执行情况  
