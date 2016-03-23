@@ -37,6 +37,8 @@ def check(signal_p,signal_c):
         print 'Player blow off. Computer win!'
     elif total_computer >21:
         print 'Computer blow off. Player win!'
+    elif total_player == 21 and total_computer == 21:
+        print 'No winner, no loser. What a peaceful world!'
     elif total_player == 21:
         print 'Player just reached 21. Player win!'
     elif total_computer == 21:
