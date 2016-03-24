@@ -2,16 +2,13 @@ from random import shuffle
 
 #initialize the cards and groups
 
-Jack=10
-Queen=10
-King=10
-Ace=1
+Table = {'Ace':1, '2':2, '3':3, '4':4, '5':5, '6':6, '7':7, '8':8, '9':9, '10':10, 'Jack':10, 'Queen':10, 'King':10}
 group_player=[]
 group_computer=[]
 
 #define two decks and card groups for player and computer
 
-Deck_player=[Ace,2,3,4,5,6,7,8,9,10,Jack,Queen,King]*4
+Deck_player=['Ace','2','3','4','5','6','7','8','9','10','Jack','Queen','King']*4
 Deck_computer=Deck_player[:]
 
 #define the procedure of game
@@ -19,16 +16,16 @@ Deck_computer=Deck_player[:]
 def move_player():
     shuffle(Deck_player)
     new_player = Deck_player.pop()
-    group_player.append(new_player)
+    group_player.append(Table[new_player])
     total_player = sum(group_player)
-    print 'The player get a %s, now the total number of player is %s.' % (str(new_player),str(total_player))
+    print 'The player get a %s, now the total number of player is %s.' % (new_player,str(total_player))
     
 def move_computer():
     shuffle(Deck_computer)
     new_computer = Deck_computer.pop()
-    group_computer.append(new_computer)
+    group_computer.append(Table[new_computer])
     total_computer = sum(group_computer)
-    print 'The computer get a %s, now the total number of computer is %s.' % (str(new_computer),str(total_computer))
+    print 'The computer get a %s, now the total number of computer is %s.' % (new_computer,str(total_computer))
 
 def check(signal_p,signal_c):
     total_player = sum(group_player)
@@ -96,3 +93,4 @@ raw_input('Press Enter to end the game...')
 
     
     
+
