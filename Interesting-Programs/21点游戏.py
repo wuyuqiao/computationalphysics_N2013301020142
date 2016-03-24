@@ -18,14 +18,14 @@ def move_player():
     new_player = Deck_player.pop()
     group_player.append(Table[new_player])
     total_player = sum(group_player)
-    print 'The player get a %s, now the total number of player is %s.' % (new_player,str(total_player))
+    print 'The player gets a %s, now the total number of player is %s.' % (new_player,str(total_player))
     
 def move_computer():
     shuffle(Deck_computer)
     new_computer = Deck_computer.pop()
     group_computer.append(Table[new_computer])
     total_computer = sum(group_computer)
-    print 'The computer get a %s, now the total number of computer is %s.' % (new_computer,str(total_computer))
+    print 'The computer gets a %s, now the total number of computer is %s.' % (new_computer,str(total_computer))
 
 def check(signal_p,signal_c):
     total_player = sum(group_player)
