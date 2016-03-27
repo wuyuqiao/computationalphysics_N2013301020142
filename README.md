@@ -16,6 +16,6 @@ qq号：641293081
 在此我设计了几个课外的有意思的小程序。 希望您百忙之中可以玩一下，并对程序提一些建议。  
 1.[21点博彩游戏](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/Interesting-Programs/21%E7%82%B9.md)
 ##作业的超链接  
-1.[第三次作业（level 1-2）](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/Chapter1/%E7%AC%AC3%E6%AC%A1%E4%BD%9C%E4%B8%9Alevel1-2-3.md)  
+1.[第三次作业（level 1-2-3）](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/Chapter1/%E7%AC%AC3%E6%AC%A1%E4%BD%9C%E4%B8%9Alevel1-2-3.md)  
 2.[Homework of Chapter 1](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/Chapter1/Homework%20of%20Chapter%201.md)
 
