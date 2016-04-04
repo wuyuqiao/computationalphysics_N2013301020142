@@ -22,47 +22,7 @@ Third, with the help of matplotlib and numpy, I used the lists that obtained in 
 Fourth, with pictures drawed in the third step, I found my numerical results are consistent with the idea that the system reaches a steady state in which NA and NB are constant.  
 ###2.Code  
 This code asks users to input the initial conditions, and give users a picture showing the variation tendency of NA and NB. If you would like to see the raw code, [please click here.](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter1/chapter1.py)  
-   
-    #Initialize parameters
 
-    print 'Please declare the initial situation that we need to continue: '
-
-    na_0=float(raw_input('The initial number of A: '))
-    nb_0=float(raw_input('The initial number of B: '))
-    t_0=float(raw_input('The initial number of time: '))
-    dt=float(raw_input('The time step is: '))
-    na=[na_0]
-    nb=[nb_0]
-    t=[t_0]
-
-    #Run the calculation
-
-    for i in range(200):
-        na_next=na[-1]+(nb[-1]-na[-1])*dt
-        nb_next=nb[-1]+(na[-1]-nb[-1])*dt
-        t_next=t[-1]+dt
-        na.append(na_next)
-        nb.append(nb_next)
-        t.append(t_next)
-
-    #Draw the picture
-
-    from pylab import *
-
-
-    nana=array(na)
-    nbnb=array(nb)
-    tt=array(t)
-
-    plot(tt,nana,label='NA',color='b')
-    plot(tt,nbnb,label='NB',color='r')
-    grid(True)
-
-    yticks([0,10,20,30,40,50,60,70,80,90,100])
-
-    legend(loc='upper right',frameon=False)
-
-    show()  
 ###3.Calculation based on different initial conditions  
 The question asked us to do the calculation on different initial conditions. So I picked three different initial conditions(attention: because in this question, A and B have exactly the same status, so NA=100,NB=0 and NA=0, NB=100 are same. So, to make diffenent initial conditions, we need to change the ratio of A and B), those are:  
 1.NA=100,NB=0  
