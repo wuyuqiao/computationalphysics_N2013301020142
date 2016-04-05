@@ -80,20 +80,13 @@ def angl(x,y,velo,vwind,accu):
             angle_1 -= 0.00001
         while get_x(y,velo,angle_2,vwind) > (x + accu/2.0):
             angle_2 += 0.00001
-        
-        return ((angle_1,get_x(y,velo,angle_1,vwind)),(angle_2,get_x(y,velo,angle_2,vwind)))
-    
 
+        if get_x(y,velo,angle_1,vwind) >= get_x(y,velo,angle_2,vwind)):
+            an = angle_2
+            ra = get_x(y,velo,angle_2,vwind))
+        else:
+            an = angle_1
+            ra = get_x(y,velo,angle_1,vwind)
 
+        return (an, ra) 
 
-
-    
-    
-
-    
-        
-    
-    
-    
-    
-    
