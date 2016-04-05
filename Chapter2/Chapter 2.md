@@ -3,9 +3,11 @@
 ###Question 2.9:  
 Calculate the trajectory of our cannon shell including both air drag and the reduced air density at high altitudes so that you can reproduce the results in Figure 2.5. Perform your calculation for different firing angles and determine the value of the angle that gives the maximum range.  
 ###Problem  
-作业L1 2.9题
-•作业L2 2.10题强化版（引入风阻）————“辅助精确打击系统”
-•作业L3 发展“超级辅助精确打击系统”（考虑炮弹初始发射的时候发射角度误差1%，速度有5%的误差，风阻误差10%，可以考虑引入Coriolis force等，以炮弹落点与打击目标距离差平方均值最小为优胜）
+作业L1 2.9题  
+
+作业L2 2.10题强化版（引入风阻）————“辅助精确打击系统”  
+
+作业L3 发展“超级辅助精确打击系统”（考虑炮弹初始发射的时候发射角度误差1%，速度有5%的误差，风阻误差10%，可以考虑引入Coriolis force等，以炮弹落点与打击目标距离差平方均值最小为优胜）
 
 ##Background  
 The Euler method we used to treat the problem in chapter 1 can easily be generalized to deal with motion in two spatial dimensions. To be specific, we can consider a projectile such as a shell shot by a cannon. If we ignore the air resistance, the equations of motion, which are again obtained from Newton's second law, can be written as  
