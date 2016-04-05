@@ -47,8 +47,14 @@ The idea of this angle adjustment system is very similar with the velocity adjus
 So first I find the maximum point. Then if the target is beyond the maximal range, the code just tell us that target cannot be reached with the given input. If the target is just at the maximum point, the code just give us the data of the maximal point. If the target is within the maximal range, then we set the maximal point as the start point and use the same process in velocity adjustment system to find two angle that within the accuracy of hit point. Next we compare this two angle and choose the one whose x coordinate of hit point is closer.   
 Like the velocity adjustment system, now this system can hit a target 25000 meters away with accuracy less than 1 meter. That is to say, the shell will hit a place whose distance to the target no more than 0.5 m. I think that distance is close enough to assure that the target will be destroyed.  
 ###3. Level 3  
-   
-   
-   
-  
+In this level, to simulate the true world, we assume that the parameters obey normal distribution. I write code which takes these parameters as random variable which obey certain normal distribution.With the help of angle adjustment system, the code carries on a hundred shell firing experiment, then we calculate the standard deviation of the distance between the hit points and target(Calculating the average value of them is meaningless, as we know that it will be very close to the x coordinate of target if the parameters do obey normal distribution).  
+[Click to get the code in this level.](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/Chapter2/trial.py)  
+In my experiment, as the problem asked, I set the error of original velocity 5%, the error of angle 1%, the error of speed of wind 10%, the number of firing events 100. The target is 20000m away,100 m high, the average original velocity is 700 m/s, the average speed of wind is 3 m/s.   
+The result is 1273.4868971819358 m. Considering the distance between cannon and target is 20000m, the error is 6.365%, which is of the magnitude of the parameters' errors.        
 ##Conclusion  
+1. when a cannon fire at angle 45 degree, the shell will reach the highest point.  
+2. With air density correction, the shells move higher and farther than those without air density correction.  
+3. With the increment of firing angle, the range increase at first, then decrease to zero.  
+4. With the error of range smaller than 1 meter, considering the corrections, when a cannon fire a shell with the original speed 700m/s, the maximal range of it is 24731m, and the angle is 43.87 degree.    
+5. The two systems in level 2 that I designed can make sure that if the parameters can be specified, the distance between hit poing and target is less than 1m.  
+6. The randomness in firing parameters will greatly increase the error. 
