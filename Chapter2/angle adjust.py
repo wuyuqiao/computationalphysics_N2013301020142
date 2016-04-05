@@ -32,14 +32,6 @@ def get_x(y0,velo,angle,vwind):
         vy.append(vy_new)
         v.append(v_new)
 
-    # determine the land point
-
-    r = float((y[-2]-y0)/(y0-y[-1]))
-    xl = (x[-2]+r*x[-1])/(r+1)
-    yl = y0
-    x[-1] = xl
-    y[-1] = yl
-
     # result
 
     return x[-1]
