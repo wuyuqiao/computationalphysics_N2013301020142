@@ -11,7 +11,7 @@ l = 1
 g=9.8
 deltat = 0.04
 force = 1
-frequency = 10
+frequency = 5
 t=[0]
 
 pendulum.pos = vector(l*sin(pendulum.theta),1-l*cos(pendulum.theta),0)
