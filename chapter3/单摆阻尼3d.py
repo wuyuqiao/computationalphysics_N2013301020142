@@ -26,8 +26,8 @@ pendulum2.omega = 0
 pendulum3.omega = 0
 
 pendulum1.pos = vector(l*sin(pendulum1.theta),1-l*cos(pendulum1.theta),1)
-pendulum1.pos = vector(l*sin(pendulum2.theta),1-l*cos(pendulum2.theta),0)
-pendulum1.pos = vector(l*sin(pendulum3.theta),1-l*cos(pendulum3.theta),-1)
+pendulum2.pos = vector(l*sin(pendulum2.theta),1-l*cos(pendulum2.theta),0)
+pendulum3.pos = vector(l*sin(pendulum3.theta),1-l*cos(pendulum3.theta),-1)
 
 string1 = curve(pos=[support1.pos, pendulum1.pos])
 string2 = curve(pos=[support2.pos, pendulum2.pos])
