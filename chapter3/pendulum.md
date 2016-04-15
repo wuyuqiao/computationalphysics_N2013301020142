@@ -33,5 +33,14 @@
 之后我加入了外界驱动力，考察此时的单摆运动。因为所有的外力的函数可以分解为若干正弦函数的组合，故我在此假设外力是正弦函数形式。这样单摆的动力学方程可以写成  
 ![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/chapter3/%E5%A4%96%E5%8A%9B%E6%96%B9%E7%A8%8B.png)  
 显然，单摆最终做正弦运动，其振幅由单摆固有频率，外力频率和阻尼系数共同决定，其频率等于外力的频率。  
-[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/chapter3/%E5%A4%96%E5%8A%9B%E5%8D%95%E6%91%86.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/chapter3/%E5%A4%96%E5%8A%9B%E4%BA%8C%E7%BB%B4.py)  
-点击图片查看绘图的源代码。   
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/chapter3/%E5%A4%96%E5%8A%9B2d.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/chapter3/%E5%A4%96%E5%8A%9B%E4%BA%8C%E7%BB%B4.py)  
+点击图片查看绘图的源代码。由此图可知，单摆的振幅先变化震荡一段时间，后来做简谐振动，振动频率与外力频率是一致的。这与解析解是相符的。  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/chapter3/%E5%A4%96%E5%8A%9B3d.gif)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/chapter3/%E5%A4%96%E5%8A%9B3d.py)   
+点击动图来获得绘图的源代码。此动图模拟了有阻尼的单摆在频率为5的，幅度为1的外力作用下的运动状态。  
+## 非线性单摆  
+到现在我们都认为单摆的运动是线性的，而现实中单摆的运动是非线性的。我现在考虑无阻尼、无驱动力的非线性单摆。其运动方程为  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/chapter3/%E9%9D%9E%E7%BA%BF%E6%80%A7%E8%BF%90%E5%8A%A8%E6%96%B9%E7%A8%8B.png)  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/chapter3/nonlinear%202d.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/chapter3/%E9%9D%9E%E7%BA%BF%E6%80%A72d.py)  
+点击图片以获得绘图的源代码。由图可知，即使是非线性的单摆，在无阻力且无外界驱动力的情况下也是做周期运动。同时可以发现，初始角度较大的非线性单摆的周期也较长。  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/chapter3/nonlinear%203d.gif)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/chapter3/nonlinear%203d.py)   
+点击动图以获得绘图的源代码。这个动图红色板下的单摆初始角度为45°，绿色版下的初始角度为90°。这里在三维空间中显示了非线性单摆的运动状态。 
