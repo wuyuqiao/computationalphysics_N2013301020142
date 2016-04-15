@@ -44,3 +44,22 @@
 点击图片以获得绘图的源代码。由图可知，即使是非线性的单摆，在无阻力且无外界驱动力的情况下也是做周期运动。同时可以发现，初始角度较大的非线性单摆的周期也较长。  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/chapter3/nonlinear%203d.gif)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/chapter3/nonlinear%203d.py)   
 点击动图以获得绘图的源代码。这个动图红色板下的单摆初始角度为45°，绿色版下的初始角度为90°。这里在三维空间中显示了非线性单摆的运动状态。 
+## 非线性单摆下振动幅度与振动周期之间的关系。  
+第八题的要求是在非线性单摆的基础上，找出其振动幅度与振动周期之间的关系。由于我设定单摆由一定角度由静止状态释放，所以振动幅度只取决于初始角度。为了探究这一关系，我选定了一系列初始角度，计算出各自的周期，然后通过作图观察它们之间的关系。  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/chapter3/%E7%AC%AC%E5%85%AB%E9%A2%98.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/chapter3/find.py)  
+点击图片以获得绘图的源代码。图中两条曲线的参数均相同，唯一的区别是蓝线表示非线性过程，绿线表示线性过程。  
+由图可知，在非线性单摆的运动过程中幅度与周期的规律为：当幅度较小时，其周期接近于一个常数，于线性单摆的性质相似；而随着振荡幅度的增加，单摆的周期也随之增加。  
+经过解析分析，非线性单摆的解析解为  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/chapter3/%E9%9D%9E%E7%BA%BF%E6%80%A7%E8%A7%A3%E6%9E%90%E8%A7%A3.png)  
+方程中K为第一类完全椭圆积分。  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/chapter3/%E8%A7%A3%E6%9E%90%E8%A7%A3%E5%9B%BE.jpg)  
+上图为解析解的图像，此处只是展现解析解的变化性质，具体参数与上一幅图并不一致。  
+## 结论  
+对于非线性的单摆，其幅度与周期的关系的解析解为：  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/chapter3/%E9%9D%9E%E7%BA%BF%E6%80%A7%E8%A7%A3%E6%9E%90%E8%A7%A3.png)   
+数值解的图像为：  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/chapter3/%E7%AC%AC%E5%85%AB%E9%A2%98.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/chapter3/find.py)    
+由图可知，在非线性单摆的运动过程中幅度与周期的规律为：当幅度较小时，其周期接近于一个常数，于线性单摆的性质相似；而随着振荡幅度的增加，单摆的周期也随之增加。  
+## 参考文献   
+1.百度百科 单摆词条  
+2.计算物理 Nicholas J.Giordano, Hisao Nakanishi  
