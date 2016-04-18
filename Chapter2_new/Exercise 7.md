@@ -20,3 +20,6 @@
 ![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/%E9%A9%AC%E6%A0%BC%E5%8A%AA%E6%96%AF%E5%8A%9B%E7%A4%BA%E6%84%8F%E5%9B%BE.jpg)   
 理论推导表明，马格努斯力的大小与棒球自转的角速度、棒球的半径和棒球在空气中的运动速度有关。以S0表示空气对棒球的牵引力的平均效应，可得棒球所受马格努斯力的表达式为  
 ![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/%E9%A9%AC%E6%A0%BC%E5%8A%AA%E6%96%AF%E5%8A%9B%E5%85%AC%E5%BC%8F.png)  
+
+  
+ 
