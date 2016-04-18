@@ -81,6 +81,7 @@ title('different ball')
 xlabel('x(m)')
 ylabel('y(m)')
 grid(True)
+ylim(0,25)
 
 show()
 
