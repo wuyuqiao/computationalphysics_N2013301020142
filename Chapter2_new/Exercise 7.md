@@ -27,10 +27,14 @@
 ## 不同的自旋对棒球的影响
 在下文中，为了突出自旋的作用，我将暂时只考虑一个normal的棒球。同时我将不引入风速。  
 首先是以45°，110mph击打出的normal ball在自旋轴垂直于地面的不同自旋下的运动轨迹。  
-[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/spin%20y%202d.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/z%20omega.py)  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/sb1.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/z%20omega.py)  
 点击图片以获得绘图源代码。两张图的横坐标均为击打的方向，第一张图的纵坐标是垂直地面方向，第二张图的纵坐标是击打方向的与地面平行的垂直方向。  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/spin%203d%20vertical.gif)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/spin%203d%20vertical.py)  
-点击动图以获得绘制的源代码。由图可以看出，由于自旋的效应，球的轨迹可以变得非常特别。同时球偏转的方向与马格努斯力的理论相符。
+点击动图以获得绘制的源代码。由图可以看出，由于自旋的效应，球的轨迹可以变得非常特别。同时球偏转的方向与马格努斯力的理论相符。红色、橙色、黄色、绿色和蓝色的棒球分别代表角速度0,100rps,500rps,1000rps和2000rps。
 然后我们看一下同样的棒球在平行于地面，垂直于击打方向的自旋下的轨迹。  
-[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/2d%201.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/z%20omega%20-%20Copy.py)  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/sb2.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/z%20omega%20-%20Copy.py)  
 点击图片以获得绘图的源代码。可以看出x-y平面上轨迹变得奇异，而x-z平面上基本没什么变化。  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/%E8%8B%A5%E6%B0%B4GIF%E6%88%AA%E5%9B%BE_2016%E5%B9%B44%E6%9C%8819%E6%97%A523%E7%82%B96%E5%88%8650%E7%A7%92.gif)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/spin%203d%20vertical%20-%20Copy.py)  
+点击动图以获得绘图的源代码。从这张动图中可以看到，棒球在垂直方向上的运动轨迹变得变化多端。红色、橙色、黄色、绿色和蓝色的棒球分别代表角速度0,100rps,500rps,1000rps和2000rps。  
+##结论  
+自旋对于棒球轨迹有决定性的影响，如果在击打和投掷棒球时加上自旋，可以使得轨迹难以预测。
