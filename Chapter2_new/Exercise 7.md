@@ -13,13 +13,19 @@
 为了直观看到不同质地的棒球阻尼系数不同带来的轨迹的不同，我做了一个简单的模拟。以110mph(30.56m/s)的初速度，45°的角度，1m的挥棒高度将这三种不同的球击打出去，观察它们的运动轨迹。  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/drag%20ball.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/drag%20ball.py)  
 点击图片以获得绘图源代码。  
- 
-  
-## 自旋对棒球轨迹的影响  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/3d%20drag%20co.gif)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/3d%20drag%20coe.py)  
+点击动图以获得绘图的源代码。  
+从上方的静态图和动态图中，我们可以发现由于阻尼系数的函数关系比较复杂，棒球的质地会对球的轨迹有很复杂的影响。由此，棒球的运动轨迹才可能变化多端。   
+## 加入自旋后棒球的运动方程  
 棒球的自旋会使得空气对棒球产生一种力，流体力学中称为马格努斯力。  
 ![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/%E9%A9%AC%E6%A0%BC%E5%8A%AA%E6%96%AF%E5%8A%9B%E7%A4%BA%E6%84%8F%E5%9B%BE.jpg)   
 理论推导表明，马格努斯力的大小与棒球自转的角速度、棒球的半径和棒球在空气中的运动速度有关。以S0表示空气对棒球的牵引力的平均效应，可得棒球所受马格努斯力的表达式为  
 ![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/%E9%A9%AC%E6%A0%BC%E5%8A%AA%E6%96%AF%E5%8A%9B%E5%85%AC%E5%BC%8F.png)  
-
+注意到此处的表达式是标量式，当我们将其应用到三维空间中时，我们应当使用矢量表达式。由此，同时考虑到了上文中提到的阻尼系数的函数关系，我们可以得到三维空间中的棒球运动方程。  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/equation.png)   
+在这个方程组中D是上文中的阻尼系数，S0/m=0.00041是一个经验常数。  
+## 不同的自旋对棒球的影响
+在下文中，为了突出自旋的作用，我将暂时只考虑一个normal的棒球。同时我将不引入风速。  
+首先是以45°，110mph击打出的normal ball在自旋轴垂直于地面的不同自旋下的运动轨迹。  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/spin%20y%202d.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter2_new/z%20omega.py)  
   
- 
