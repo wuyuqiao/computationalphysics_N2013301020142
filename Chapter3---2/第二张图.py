@@ -51,7 +51,7 @@ plot(t_1,avelo_1,label='FD=0.5')
 plot(t_2,avelo_2,label='FD=1.2')
 
 legend(loc='upper right')
-title('angle versus time')
+title('angular velocity versus time')
 xlabel('time(s)')
 ylabel('omega(radians/s)')
 xlim(0,60)
