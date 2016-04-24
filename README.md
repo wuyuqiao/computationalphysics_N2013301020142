@@ -20,5 +20,6 @@ qq号：641293081
 2.[Exercise 4](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/Chapter1/Homework%20of%20Chapter%201.md)  
 3.[Exercise 6](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/Chapter2/Chapter%202.md)  
 4.[Exercise 7](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/Chapter2_new/Exercise%207.md)  
-5.[Exercise 8](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/chapter3/pendulum.md)
+5.[Exercise 8](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/chapter3/pendulum.md)  
+6.[Exercise 9](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/Chapter3---2/Exercise%209.md)
 
