@@ -16,7 +16,7 @@
 下图为角速度的变化情况。  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/%E7%AC%AC%E4%BA%8C%E5%BC%A0%E5%9B%BE.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/%E7%AC%AC%E4%BA%8C%E5%BC%A0%E5%9B%BE.py)  
 点击图片以获取绘图的源代码。由上图可见，三种单摆的角速度的变化特征与上面所述的角度的变化特征相似。这是显然的，因为角速度只不过是角度对时间的导数罢了。  
-下图为三维情况下三种摆的运动状态。
+下图为三维情况下三种摆的运动状态。  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/%E7%AC%AC%E4%B8%80%E5%BC%A0GIF.gif)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/%E7%AC%AC%E4%B8%80%E5%BC%A0GIF.py)  
 点击动图以获取绘图源代码。最左方的红球表示外力为0的单摆，仅仅摆动了几下之后就静止了。中间的黄球表示外力为0.5的单摆，后来一直做与外力同频率的简谐振动。右方的绿球表示外力为1.2的混沌摆，其摆动轨迹是无法预测的，且摆动的幅度也比较大。  
 ## 混沌摆对初值的敏感性  
