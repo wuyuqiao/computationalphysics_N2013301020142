@@ -31,4 +31,12 @@
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/fifth%20picture.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/%E7%AC%AC%E4%BA%94%E5%BC%A0%E5%9B%BE.py)  
 点击图片以获取绘图源代码。这是F=0.5，即非混沌情况下单摆的角度与角速度的关系。由图可见，除开最初的一段线，这关系基本上是一个椭圆，这表明对应每一个角度由两个角速度，反之亦然。最终的轨迹与初始值无关，这与上面的结论相合，也是符合简谐振动的规律的。  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/sixth.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/%E7%AC%AC%E5%85%AD%E5%BC%A0%E5%9B%BE.py)  
-点击图片以获取绘图的源代码。这是F=1.2，即混沌情况下的单摆的角度与角速度的关系。这里的图像明显比非混沌情况要复杂，但可以明显看出图像上的点并不是随机的，其中有一定的规律性。混沌系统一般都会显示这类的规律性。
+点击图片以获取绘图的源代码。这是F=1.2，即混沌情况下的单摆的角度与角速度的关系。这里的图像明显比非混沌情况要复杂，但可以明显看出图像上的点并不是随机的，其中有一定的规律性。混沌系统一般都会显示这类的规律性。 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/seven.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/seven.py)  
+点击图片以获取绘图的源代码。这张图是典型的Poincare图，与上一张图的不同是此图中只取了是驱动力周期倍数的时刻的情况。图中明显的结构是分形结构，被称作奇异吸引子，是混沌现象的一大特征：如果是非混沌情况，图中只会有一个点。而在混沌情况中图中会出现奇异吸引子。
+
+
+  
+  
+
+
+
