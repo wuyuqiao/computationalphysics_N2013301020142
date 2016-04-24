@@ -23,7 +23,12 @@
 混沌摆的最大特征是当初值仅仅改变了一点点时，结果就会有极大的变化。为了示意这种情况，我选择两个摆，它们的初始角度仅仅相差0.001rad。之后观察它们分别在F=1.2（混沌）和F=0.5（非混沌）的情况下角度之差的变化规律。  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/%E7%AC%AC%E4%B8%89%E5%BC%A0%E5%9B%BE.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/%E7%AC%AC%E4%B8%89%E5%BC%A0%E5%9B%BE.py)   
 点击图片以获取绘图的源代码。这是F=1.2的情况下角度差的变化情况。可以明显看出，在混沌状态下，初始角度相差极小的两个物理摆的角度差随着时间推移会变大，最终趋于稳定，这种稳定是因为已经达到可能的最大差2pi。这表明混沌摆对初值敏感性很强。  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/%E7%AC%AC%E4%BA%8C%E5%BC%A0GIF.gif)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/%E7%AC%AC%E4%BA%8C%E5%BC%A0GIF.py)  
+点击动图以获取绘图的源代码。在动图中红色的球表示初始角度为0.2rad的摆，黄色的球表示初始角度为0.201rad的摆。绿色的球与中心连线与x轴正向的夹角表示两个摆之间的角度差。由图可知，两个混沌摆的夹角的变化没有规律，难以预测。
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/%E7%AC%AC%E5%9B%9B%E5%BC%A0%E5%9B%BE.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/%E7%AC%AC%E5%9B%9B%E5%BC%A0%E5%9B%BE.py)  
-点击图片以获取绘图的源代码。这是F=0.5的情况下角度差的变化情况。从中可以看到，对于两个初始位置差异很小的非混沌摆，其角度差会迅速减小，最终趋于0.这表明非混沌摆对初值不敏感。 
-  
-  
+点击图片以获取绘图的源代码。这是F=0.5的情况下角度差的变化情况。从中可以看到，对于两个初始位置差异很小的非混沌摆，其角度差会迅速减小，最终趋于0.这表明非混沌摆对初值不敏感。  
+## 混沌摆的角度与角速度的关系  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/fifth%20picture.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/%E7%AC%AC%E4%BA%94%E5%BC%A0%E5%9B%BE.py)  
+点击图片以获取绘图源代码。这是F=0.5，即非混沌情况下单摆的角度与角速度的关系。由图可见，除开最初的一段线，这关系基本上是一个椭圆，这表明对应每一个角度由两个角速度，反之亦然。最终的轨迹与初始值无关，这与上面的结论相合，也是符合简谐振动的规律的。  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/sixth.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/%E7%AC%AC%E5%85%AD%E5%BC%A0%E5%9B%BE.py)  
+点击图片以获取绘图的源代码。这是F=1.2，即混沌情况下的单摆的角度与角速度的关系。这里的图像明显比非混沌情况要复杂，但可以明显看出图像上的点并不是随机的，其中有一定的规律性。混沌系统一般都会显示这类的规律性。
