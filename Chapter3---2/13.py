@@ -57,6 +57,10 @@ scatter(fd,th,s=10)
 grid(True)
 xlim(1.35,1.48)
 ylim(0,3)
+title('Bifurcation diagram')
+xlabel('FD')
+ylabel('theta(radians)')
+
 
 show()
 
