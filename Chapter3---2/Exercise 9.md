@@ -47,5 +47,13 @@
 点击图片以获取绘图的源代码。由这三张图可以看出，当F增加时，奇异吸引子的位置没有发生改变，但其上的点逐渐减少，这表明系统在逐渐离开混沌状态 。  
 之后是频率变化时的情况：  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/eleven.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/eleven.py)  
-点击图片以获取绘图的源代码。由这三张图可以看出，当外力频率每次以0.00001的大小增加时，奇异吸引子的位置基本没变，但其上的点逐渐增加，吸引子的在相空间中体积增大，表明其“吸引”能力在逐渐下降。
+点击图片以获取绘图的源代码。由这三张图可以看出，当外力频率每次以0.00001的大小增加时，奇异吸引子的位置基本没变，但其上的点逐渐增加，吸引子的在相空间中体积增大，表明其“吸引”能力在逐渐下降。  
+## 通往混沌之路  
+接下来我们研究单摆系统是如何从简谐振动变为混沌振动的。我们先考察F=1.35,1.44,1.465时角度随时间的变化关系。  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/12-1.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/twelve.py)  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/12-2.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/twelve.py)  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/12-3.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/twelve.py)  
+点击上方任一图片以获取绘图源代码。第一张图的周期与外界驱动力的相同，第二张图的周期是外力周期两倍，第三张图是外力周期四倍。由此我们可以看出，随着外力在这个范围内的增加，单摆的周期变为外力周期的两倍、四倍、八倍等等，最终进入混沌状态。   
+为了更好地研究这一渐变过程，我们画所谓的bifurcation图。  
+
 
