@@ -3,6 +3,7 @@
 学号：2013301020142  
 日期：2016年4月20日  
 ##摘要  
+本文使用Euler-Cromer方法探究了特定条件下物理摆的混沌现象，并在此基础上解答了作业第12、16、21题。
 ##背景介绍  
 ![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/%E6%B7%B7%E6%B2%8C%20%E4%B8%8B%E8%BD%BD.jpg)  
 图中的现象是混沌的典型特征。  
@@ -55,5 +56,9 @@
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/12-3.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/twelve.py)  
 点击上方任一图片以获取绘图源代码。第一张图的周期与外界驱动力的相同，第二张图的周期是外力周期两倍，第三张图是外力周期四倍。由此我们可以看出，随着外力在这个范围内的增加，单摆的周期变为外力周期的两倍、四倍、八倍等等，最终进入混沌状态。   
 为了更好地研究这一渐变过程，我们画所谓的bifurcation图。  
+*在这里插入第13张图*  
+点击图片以获取绘图的源代码。所谓bifurcation图，与奇异吸引子的绘图方式类似，图上的点对应的是外力相位为零的时刻。由图可知，从1.35开始的一段中，每一个F只对应一个角度，这时单摆的周期与外力周期一致。之后每个F对应两个角度，表明其周期是外力两倍。以后周期逐渐变为外力周期的四倍、八倍等。由于分辨率的问题，图中难以显示更长周期的情况，但是显然的是，当F持续增大后，周期会越来越长，最终进入没有周期的混沌情况。  
+## level-2 3.21题 改变参数对bifurcation图的影响  
+接下来我们研究改变外力频率和阻尼系数时bifurcation图会有什么变化。
 
 
