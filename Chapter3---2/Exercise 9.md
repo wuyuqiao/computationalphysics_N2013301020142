@@ -35,11 +35,17 @@
 点击图片以获取绘图的源代码。这张图是典型的Poincare图，与上一张图的不同是此图中只取了是驱动力周期倍数的时刻的情况。图中明显的结构是分形结构，被称作奇异吸引子，是混沌现象的一大特征：如果是非混沌情况，图中只会有一个点。而在混沌情况中图中会出现奇异吸引子。  
 ## level-1 3.12题 不同相位取值下奇异吸引子的变化情况  
 在上文中的奇异吸引子的图中，我们取的是外力相位为0的时刻。在这里，我们探究一下取别的相位为基准时，奇异吸引子有什么变化。  
-![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/eight.png)  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/eight.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/eight.py)  
 点击图片以获取绘图的源代码。这张图的时间取值是外力相位为+pi/2的时刻。  
-*在这里插入第九张图*  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/nine.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/nine.py) 
 点击图片以获取绘图的源代码。这张图的时间取值是外力相位为+pi/4的时刻。  
 由这两张图连同上文中的一张图可以看出，这里明显随着相位从0到pi/4再到pi/2,奇异吸引子先向右上方、再向右下方运动。这表明随着相位的变化，奇异吸引子也相应的运动。  
 ## level-2 3.16题 参数有微小变化时奇异吸引子的变化情况  
-接下来我们探究当参数有微小变化时奇异吸引子的变化情况。我们选择外力的幅度和频率作为参数，分别令幅度F=1.2，1.21,1.22和f=2/3,2/3+0.01,2/3+0.02，观察奇异吸引子的变化。  
+接下来我们探究当参数有微小变化时奇异吸引子的变化情况。我们选择外力的幅度和频率作为参数，分别令幅度F=1.2，1.25,1.3和f=2/3,2/3+0.00001,2/3+0.00002，观察奇异吸引子的变化。  
 首先是幅度变化时的情况：  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/ten.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/ten.py)  
+点击图片以获取绘图的源代码。由这三张图可以看出，当F增加时，奇异吸引子的位置没有发生改变，但其上的点逐渐减少，这表明系统在逐渐离开混沌状态 。  
+之后是频率变化时的情况：  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/eleven.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3---2/eleven.py)  
+点击图片以获取绘图的源代码。由这三张图可以看出，当外力频率每次以0.00001的大小增加时，奇异吸引子的位置基本没变，但其上的点逐渐增加，吸引子的在相空间中体积增大，表明其“吸引”能力在逐渐下降。
+
