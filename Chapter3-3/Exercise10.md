@@ -23,7 +23,13 @@
 点击图片以获取绘图的源代码。由图可知，与混沌摆的情况类似，出现了奇异吸引子。由于它们出现在Lorenz模型中，习惯上被称为Lorenz吸引子。  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/Phase%203d.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/phase%203d.py)  
 点击图片以获取绘图的源代码。这是Lorenz吸引子的三维图示。  
-[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/%E8%8B%A5%E6%B0%B4GIF%E6%88%AA%E5%9B%BE_2016%E5%B9%B44%E6%9C%8829%E6%97%A514%E7%82%B915%E5%88%8645%E7%A7%92.gif)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/Phase%20space%20-%20Copy.py)  
-点击图片以获取绘图的源代码。图中为Lorenz吸引子在三维相空间中形成的动态图示。
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/gif1.gif)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/Phase%20space%20-%20Copy.py)  
+点击图片以获取绘图的源代码。图中为Lorenz吸引子在三维相空间中形成的动态图示。  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/gif2.gif)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/2%20balls.py)  
+点击图片以获取绘图的源代码。上图在相空间中显示了系统的混沌性。红色和绿色代表的系统初始位置仅仅在x坐标上相差0.1，但可以明显看出一段时间后两个系统的图像不再重合，相差变大。
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/slice1.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/slice1.py)  
 点击图片以获取绘图的源代码。上图为r=25时Lorentz吸引子的截面图。左图为x=0时y-z平面，右图为y=0时x-z平面。
+
+
+
+
