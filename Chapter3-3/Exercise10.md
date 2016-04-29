@@ -25,11 +25,11 @@
 点击图片以获取绘图的源代码。这是Lorenz吸引子的三维图示。  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/gif1.gif)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/Phase%20space%20-%20Copy.py)  
 点击图片以获取绘图的源代码。图中为Lorenz吸引子在三维相空间中形成的动态图示。  
-[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/gif2.gif)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/2%20balls.py)  
-点击图片以获取绘图的源代码。上图在相空间中显示了系统的混沌性。红色和绿色代表的系统初始位置仅仅在x坐标上相差0.1，但可以明显看出一段时间后两个系统的图像不再重合，相差变大。
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/GIF2.gif)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/2%20balls.py)  
+点击图片以获取绘图的源代码。上图在相空间中显示了系统的混沌性。红色和绿色代表的系统初始位置仅仅在x坐标上相差0.1，但可以明显看出一段时间后两个系统的图像不再重合，差值变大。
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/slice1.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/slice1.py)  
-点击图片以获取绘图的源代码。上图为r=25时Lorentz吸引子的截面图。左图为x=0时y-z平面，右图为y=0时x-z平面。
-
-
-
-
+点击图片以获取绘图的源代码。上图为r=25时Lorentz吸引子的截面图。左图为x=0时y-z平面，右图为y=0时x-z平面。  
+## 通往混沌  
+与物理摆类似的是，Lorenz系统随着r的增大，也会从周期状态逐渐变为混沌状态。这里我们考察该系统是如何变成混沌状态的。  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/road.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/road.py)  
+点击图片查看绘图的源代码。当r=160的时候，系统是周期性的。而当r=163.8的时候，系统开始出现一些非周期的因素，也就是开始变得混沌。一般来说，当r较小时为周期性的系统，随着r的增加，其非周期性会增强。  
