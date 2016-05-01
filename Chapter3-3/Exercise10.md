@@ -35,10 +35,21 @@
 点击图片查看绘图的源代码。当r=160的时候，系统是周期性的。而当r=163.8的时候，系统开始出现一些非周期的因素，也就是开始变得混沌。一般来说，当r较小时为周期性的系统，随着r的增加，其非周期性会增强。   
 ## 台球在球场型桌面的运动  
 台球在桌面上的运动是比较简单的运动，当桌面为正圆面时，其运动轨迹将为非混沌的。而当桌面为球场型时，其运动为混沌的。  
-首先我们来考察当桌面为正圆形时台球的运动。  
 
+首先我们考察纯圆面的情况。
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/circle%20taiqiu.gif)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/circle%20taiqiu.py)  
 点击图片以获取绘图的源代码。可见轨迹为对称的，表明系统是非混沌系统。  
 接下来我们考察球场型的桌面。取alpha为0.1，台球在其上的运动轨迹为  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/stadium.gif)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/stadium%200.1.py)  
-点击图片以获取绘图的源代码。可见，当桌面从正圆形变为球场型之后，台球的轨迹立刻变为混沌系统，这体现在轨迹并无明显的对称性上。
+点击图片以获取绘图的源代码。可见，当桌面从正圆形变为球场型之后，台球的轨迹立刻变为混沌系统，这体现在轨迹并无明显的对称性上。   
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/2d%20four%20kinds.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/4%20kinds%202d.py)  
+点击图片以获取绘图的源代码。上图为二维图展现随着alpha的增大，系统的混沌性增强。  
+
+
+
+
+
+
+
+
+
