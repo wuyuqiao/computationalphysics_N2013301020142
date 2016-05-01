@@ -35,7 +35,8 @@
 点击图片查看绘图的源代码。当r=160的时候，系统是周期性的。而当r=163.8的时候，系统开始出现一些非周期的因素，也就是开始变得混沌。一般来说，当r较小时为周期性的系统，随着r的增加，其非周期性会增强。   
 ## 台球在球场型桌面的运动  
 台球在桌面上的运动是比较简单的运动，当桌面为正圆面时，其运动轨迹将为非混沌的。而当桌面为球场型时，其运动为混沌的。  
-首先我们来考察当桌面为正圆形时台球的运动。
+首先我们来考察当桌面为正圆形时台球的运动。  
+
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/circle%20taiqiu.gif)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/circle%20taiqiu.py)  
 点击图片以获取绘图的源代码。可见轨迹为对称的，表明系统是非混沌系统。  
 接下来我们考察球场型的桌面。取alpha为0.1，台球在其上的运动轨迹为  
