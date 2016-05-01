@@ -1,7 +1,14 @@
-# 第十次作业 3.26、3.29、3.33及其3D展示 
+# 第十次作业 3.26、3.29、3.33及其3D展示
+
+标签（空格分隔）： 作业
+
+---  
+[TOC]
+
 姓名：吴雨桥  
 学号：2013301020142  
 时间：2016年4月27日  
+[TOC]
 ## 摘要  
 本文使用Euler法通过数值计算研究了Lorenz模型和台球问题，并回答了书上的3.26、3.29和3.33题，并使用Vpython进行了3D展示。  
 ## Lorenz模型  
@@ -52,10 +59,6 @@
 点击图片以获取绘图的源代码。按照左上、右上、左下、右下的顺序分别为alpha为0、0.001、0.01、0.1的情况下相空间的情况。可见随着alpha的增大，原先的规则图像逐渐变得不规则。  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/sep.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/separate.py)  
 点击图片以获取绘图的源代码。此图的纵坐标已经做了对数函数转换。由图可知，初始位置相差仅为10^(-5)的两个台球，在alpha=0.01的情况下，经过一段时间，其距离差会变得越来越大。
-
-
-
-
 
 
 
