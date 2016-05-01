@@ -52,3 +52,6 @@
 点击图片以获取绘图的源代码。按照左上、右上、左下、右下的顺序分别为alpha为0、0.001、0.01、0.1的情况下相空间的情况。可见随着alpha的增大，原先的规则图像逐渐变得不规则。  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/sep.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Chapter3-3/separate.py)  
 点击图片以获取绘图的源代码。此图的纵坐标已经做了对数函数转换。由图可知，初始位置相差仅为10^(-5)的两个台球，在alpha=0.01的情况下，经过一段时间，其距离差会变得越来越大。
+## 台球在内圆外方桌面的运动  
+点击图片以获取绘图的源代码。这幅动图描绘了台球在一张内圆外方的桌子上的运动轨迹。由图可知，台球在这张桌子上的运动也是混沌运动。 
+ 
