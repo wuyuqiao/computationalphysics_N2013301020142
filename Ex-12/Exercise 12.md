@@ -32,5 +32,11 @@
 之后我们将地球放置在三颗恒星的中心位置，观察其运动。这里为简洁起见，只显示了地球的轨迹。
 ![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-12/middle.png)  
 可见，此时地球不随着任何太阳转动，其轨迹也是混沌的。
-
-
+## 土卫七的混沌运动  
+土卫七是土星的一颗卫星，其形状不是通常的球形。这里我们用一根细杆连接着的两个等质量质点来模拟土卫七。其角度会呈现混沌现象。  
+当其质心做圆周运动时，  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-12/heperion%201.png)  
+此时，系统不呈现混沌现象。  
+当其质心做椭圆运动时，  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-12/hyperion%202.png)  
+此时，系统的角度变化呈现明显的混沌现象。  
