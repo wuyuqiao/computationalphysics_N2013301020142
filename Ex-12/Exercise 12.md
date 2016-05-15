@@ -24,6 +24,7 @@
 ![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-12/mj%3D1000mj.png)  
 由图可见，引力无法束缚住太阳和木星，它们相互远离。由于地球一开始与太阳距离更近，在之后地球跟随着太阳运动。  
 之所以这个三体系统没有表现明显的混沌现象，是因为其中地球的质量太小了，对太阳和木星的影响只能算作围绕。这个系统的实质是太阳和木星组成的两体系统。地球只是相当于一个“试探质点”的角色。  
+[本节所用源代码](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-12/3-body%20simulation.py)
 ## 如果太阳系有三个太阳  
 这里我们假设太阳系中有三个太阳，观察其中地球的运动。三个太阳之间距离为5AU，地球与其中一个太阳距离为1AU。  
 ![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-12/3%20s.png)  
@@ -31,21 +32,26 @@
 第二张图为地球与第一个太阳的轨迹。由于地球与第一颗太阳距离较近，故在后来也一直围绕着它运动。  
 之后我们将地球放置在三颗恒星的中心位置，观察其运动。这里为简洁起见，只显示了地球的轨迹。
 ![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-12/middle.png)  
-可见，此时地球不随着任何太阳转动，其轨迹也是混沌的。
+可见，此时地球不随着任何太阳转动，其轨迹也是混沌的。  
+[本节绘图源代码](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-12/3%20stars.py)
 ## 土卫七的混沌运动  
 土卫七是土星的一颗卫星，其形状不是通常的球形。这里我们用一根细杆连接着的两个等质量质点来模拟土卫七。其角度会呈现混沌现象。  
 当其质心做圆周运动时，  
 ![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-12/heperion%201.png)  
-此时，系统不呈现混沌现象。  
+此时，系统不呈现混沌现象。此时，角速度与角度的关系为  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-12/alahu.png)
 当其质心做椭圆运动时，  
 ![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-12/hyperion%202.png)  
-此时，系统的角度变化呈现明显的混沌现象。  
+此时，系统的角度变化呈现明显的混沌现象。此时，角速度与角度的关系为  
+
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-12/akabar.png)
 混沌现象的最重要特征就是对初值的高度敏感性。我们令质心做椭圆运动，同时令两个星球初始角度相差0.01radians，观察其角度差的变化。  
 ![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-12/chaos%201.png)  
 可见，角度差随时间以指数形式增加。之后之所以停止增加，只是因为我们设定角度的最大值为2pi而已。  
 接下来，我们去除这个角度的约束，看看此时角度差的变化情况。  
 ![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-12/chaos%202.png)  
 由图可见，去除掉对角度的束缚之后，原图中的突兀的垂直线已经消失了。图中之所以还有一些谷，是因为当角度大的一方的角速度从正变为负的时候，角度差会减小所致。  
+[本节绘图源代码](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-12/hyperion.py)
 ## 结论  
 通过文中的探讨，我们可以得出以下结论：  
 1.木星对地球有引力的影响，且如果增大木星的质量，这种影响会变大，地球的运动也会变得混沌起来。  
