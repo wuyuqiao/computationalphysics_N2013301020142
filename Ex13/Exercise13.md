@@ -27,12 +27,26 @@ Gauss-Seidel方法的改进版是simultaneous over-relaxation （SOR）方法。
 点击图片可以获得绘图代码。图中之所以在一开始迭代次数不变是因为程序中初始时强制进行了5次迭代。从图中我们验证了上文所述的结论，证明了SOR方法相比Gauss-Seidel方法来说，在计算精度不变的前提下，能极大地提高运算速度。  
 ## 点电荷周围电势的分布  
 这里我们将上文中的电容器换成中心的一个点电荷。  
-![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex13/point%201.png)  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex13/point%201.png)  
 ![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex13/point%202.png)  
-![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex13/point%203.png)
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex13/point%203.png)](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/Ex13/point.py)
 点击图片可以获得绘图的代码。由图可知，电势为圆心在电荷上的同心圆，且电场线呈辐射状。这与电磁学相一致。  
+## 二维绝缘带电盒子中电势的分布  
+这里我们考虑和上文相同的物理情景，但是有两个变化。第一、中间没有任何东西。第二、y方向上的边界电势为1，x方向上的边界电势为-1.
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex13/nothing%201.png)  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex13/nothing%202.png)  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex13/nothing%203.png)](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/Ex13/nothing.py)  
+点击图片可以获得绘图的代码。由图可知，在这种情况下，电势的分布呈现马鞍状，电场线的走向基本上是从y方向边界指向x方向的边界。这与电磁学和我们的物理直觉又是相同的。 
+
 ## 结论  
 1.对不同情况下电场的数值计算结果与电磁学一致，表明数值方法是可靠的。  
 2.SOR方法与Gauss-Seidel方法相比可以大大增加迭代效率。  
 ## 参考文献  
 1.计算物理 Nicholas J.Giordano, Hisao Nakanishi
+
+
+
+
+
+
+
