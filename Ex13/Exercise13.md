@@ -21,7 +21,18 @@ Gauss-Seidel方法的改进版是simultaneous over-relaxation （SOR）方法。
 点击图片可以获得绘图代码。由图可知，空间中的电势场在左侧平板上呈现一个峰，在右侧平板上呈现一个谷。整体的分布情况与我们的直觉相符。下图为由电势分布推导出的电场分布：  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex13/capacitor%203.png)](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/Ex13/capacitor%202.py)  
 点击图片可以获得绘图代码。由图可知，电场线主要从左侧板流向右侧板，板间的电场是均匀的。这与电磁学的结论相符。
-## 不同算法下迭代速度的比较  
+## 不同算法下迭代速度的比较（5.7）  
 理论分析表明，Gauss-Seidel方法下要达到一定精度所需的迭代次数与二维网格的边长成二次关系；而SOR方法下成线性关系。这里我们来验证这一结论。当网格的边长不同时，意味着原图形等比例变化。  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex13/iteration.png)](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/Ex13/iter.py)  
-点击图片可以获得绘图代码。图中之所以在一开始迭代次数不变是因为程序中初始时强制进行了5次迭代。从图中我们验证了上文所述的结论，证明了SOR方法相比Gauss-Seidel方法来说，在计算精度不变的前提下，能极大地提高运算速度。
+点击图片可以获得绘图代码。图中之所以在一开始迭代次数不变是因为程序中初始时强制进行了5次迭代。从图中我们验证了上文所述的结论，证明了SOR方法相比Gauss-Seidel方法来说，在计算精度不变的前提下，能极大地提高运算速度。  
+## 点电荷周围电势的分布  
+这里我们将上文中的电容器换成中心的一个点电荷。  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex13/point%201.png)  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex13/point%202.png)  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex13/point%203.png)
+点击图片可以获得绘图的代码。由图可知，电势为圆心在电荷上的同心圆，且电场线呈辐射状。这与电磁学相一致。  
+## 结论  
+1.对不同情况下电场的数值计算结果与电磁学一致，表明数值方法是可靠的。  
+2.SOR方法与Gauss-Seidel方法相比可以大大增加迭代效率。  
+## 参考文献  
+1.计算物理 Nicholas J.Giordano, Hisao Nakanishi
