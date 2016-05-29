@@ -25,5 +25,5 @@ qq号：641293081
 7.[Exercise 10](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/Chapter3-3/Exercise10.md)  
 8.[Exercise 11](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/chap4/ex11.md)  
 9.[Exercise 12](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/Ex-12/Exercise%2012.md)  
-10.[Exercise 13](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/Ex13/Exercise13.md)
-
+10.[Exercise 13](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/Ex13/Exercise13.md)  
+11.[Exercise 14](https://github.com/wuyuqiao/computationalphysics_N2013301020142/blob/master/Ex-14/Exercise%2014.md)
