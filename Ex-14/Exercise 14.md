@@ -33,4 +33,11 @@
 点击图片可以获得绘图代码。显然，power spectrum上当频率为150Hz的奇数倍时有峰值。  
 当扰动施加处稍稍偏离中心时，power spectrum为  
 ![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-14/power%20spe%202.png)  
-可见此时当频率为150的整数倍时就有峰值。  
+可见此时当频率为150的整数倍时就有峰值。 
+## 五、6.12题  
+现在考察当初始波形为三角波的情况下的power spectrum。当三角形的上顶角对应的位置为弦的中心时，情况为  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-14/tri%201.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-14/power%20spectrum%202.py)  
+点击图片获得绘图代码。由图可见频率谱上有几个峰，随着频率的增大峰值在减小。  
+当上顶角位置偏离弦的中心时，  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-14/tri%202.png)  
+可见，由于初始的波形没有了对称性，频谱上多出了一些峰。
