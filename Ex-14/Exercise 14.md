@@ -16,4 +16,12 @@
 ## 二、6.6题  
 齐次线性偏微分方程的一个重要特征是有限个解的线性组合也是方程的解。由此，在弦上运动的两个波包的运动是独立的。为了说明这一点，我们在弦上的x=0.3m，0.7m处各施加一个峰值不同的高斯型扰动，观察之后波包的运动。  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-14/gif%203.gif)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-14/gauss2.py)  
-点击图片可以获得绘图代码。由图可知，各个波之间没有相互干扰，其运动是在“碰撞”前后均是独立的。  
+点击图片可以获得绘图代码。由图可知，各个波之间没有相互干扰，其在“碰撞”前后的形状和速度均没有变化。由此可知，这几个波作为弦的运动的解，是相互独立的。  
+# 三、初始波形不同时弦的振动情况  
+接下来我们考察当初始波形不同时弦上的波的传播情况。  
+当初始的波为x=0.4~0.6上的方波时,情况为：  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-14/gif%20square.gif)  
+当初始的波为三角波时，情况为：  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-14/gif%20tri.gif)  
+当初始的波为上半圆时，情况为：  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-14/gif%20circle.gif)  
