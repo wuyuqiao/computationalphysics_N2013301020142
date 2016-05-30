@@ -25,3 +25,12 @@
 ![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-14/gif%20tri.gif)  
 当初始的波为上半圆时，情况为：  
 ![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-14/gif%20circle.gif)  
+## 四、弦上的波的power spectrum  
+这里探究弦上的波的power spectrum。当在上文的弦的中心位置加上高斯型的扰动后，距离x=0处端点距离为弦长的5%的点的振动大小随时间的变化情况为：  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-14/signal%201.png)  
+由此我们可以做出其power spectrum图。  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-14/power%20spe%201.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-14/power%20spectrum%201.py)  
+点击图片可以获得绘图代码。显然，power spectrum上当频率为150Hz的奇数倍时有峰值。  
+当扰动施加处稍稍偏离中心时，power spectrum为  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-14/power%20spe%202.png)  
+可见此时当频率为150的整数倍时就有峰值。  
