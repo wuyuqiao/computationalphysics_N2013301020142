@@ -18,4 +18,8 @@
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/random%203.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/random%20walk%203.py)  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/random%204.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/random%20walk%204.py)  
 点击图片获得绘图代码。由图可知，此时的x的平方的平均值与步数近似为线性关系，此过程也是“类扩散的”。  
-
+## 三、左右不等可能的随机行走（7.3）  
+这里我们让向右行走的概率为0.75，向左为0.25，固定步长为1，观察两种平均值随步长的变化关系为  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/random%205.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/random%20walk%205.py) 
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/random%206.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/random%20walk%206.py)  
+点击图片获取绘图代码。由于左右概率不同，可见x的平均值随步数线性增大，其平方的平均与步数成二次关系。  
