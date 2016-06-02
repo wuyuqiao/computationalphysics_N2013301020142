@@ -31,4 +31,8 @@ x的平方的平均值与步数近似为线性关系，这种线性关系表明�
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/diffusion%2021.png)  
 ![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/diffusion%2022.png)  
 ![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/diffusion%2023.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/diffusion%202.py)  
-注意这里三张图的z轴范围不同。可见，二维情况下结论与一维时是一致的。
+注意这里三张图的z轴范围不同。可见，二维情况下结论与一维时是一致的。  
+## 五、二维扩散体系中熵的变化  
+这里我们考虑在一个二维体系中熵是如何变化的。我们考察仅存在单个粒子时的情况。当二维系统为长为30的点阵时，熵与时间的关系为：  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/entropy%201.png)  
+可见，随着时间增大，熵的值增大，但是其增长速度降低。
