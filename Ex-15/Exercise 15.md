@@ -10,16 +10,25 @@
 这里我们考虑一个典型的一维随机行走问题。行人初始时刻位于x=0处，步长为1，相邻的两步之间时间间隔固定（故步数正比于时间），每一步向左和向右概率均为0.5。我们假设有5000个相同的行人，观察他们运动的平均性质。  
 他们距离原点的平均距离随步数的变化关系为  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/random%201.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/random%20walk%201.py)  
-点击图片得绘图代码。可见，由于每一步向左向右的概率相同，平均距离保持在0附近波动。  
+可见，由于每一步向左向右的概率相同，平均距离保持在0附近波动。  
 他们距离原点距离平方随步数的变化关系为  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/random%202.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/random%20walk%202.py)  
-点击图片得绘图代码。x的平方的平均值与步数近似为线性关系，这种线性关系表明这个随机行走的过程是“类扩散的”。  
+x的平方的平均值与步数近似为线性关系，这种线性关系表明这个随机行走的过程是“类扩散的”。  
 接下来我们将情况一般化，此时每一步的步长为-1~+1之间的一个值。此时两个平均值随步数的变化关系为  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/random%203.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/random%20walk%203.py)  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/random%204.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/random%20walk%204.py)  
-点击图片获得绘图代码。由图可知，此时的x的平方的平均值与步数近似为线性关系，此过程也是“类扩散的”。  
+由图可知，此时的x的平方的平均值与步数近似为线性关系，此过程也是“类扩散的”。  
 ## 三、左右不等可能的随机行走（7.3）  
 这里我们让向右行走的概率为0.75，向左为0.25，固定步长为1，观察两种平均值随步长的变化关系为  
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/random%205.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/random%20walk%205.py) 
 [![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/random%206.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/random%20walk%206.py)  
-点击图片获取绘图代码。由于左右概率不同，可见x的平均值随步数线性增大，其平方的平均与步数成二次关系。  
+由于左右概率不同，可见x的平均值随步数线性增大，其平方的平均与步数成二次关系。  
+## 四、随机行走与扩散  
+这里我们讨论随机行走与扩散之间的相似性。选取大量随机行走者，模拟其在空间上密度随时间的变化关系，在一维情况下，可得  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/diffusion%201.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/diffusion%201.py)  
+由图可知，随着时间的增大，密度曲线的峰值下降，范围增大，总面积保持不变。  
+在二维情况下，可得  
+[![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/diffusion%2021.png)  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/diffusion%2022.png)  
+![](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/diffusion%2023.png)](https://raw.githubusercontent.com/wuyuqiao/computationalphysics_N2013301020142/master/Ex-15/diffusion%202.py)  
+注意这里三张图的z轴范围不同。可见，二维情况下结论与一维时是一致的。
